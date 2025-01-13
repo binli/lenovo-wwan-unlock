@@ -5,6 +5,7 @@ After=ModemManager.service
 [Service]
 Type=simple
 User=root
+ExecStartPre=/bin/sleep 3
 ExecStart=/opt/fcc_lenovo/configservice_lenovo -v
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
