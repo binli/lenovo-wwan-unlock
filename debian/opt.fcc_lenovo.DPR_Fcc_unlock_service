@@ -26,6 +26,7 @@ include <tunables/global>
   owner /sys/bus/pci/devices/ r,
   owner /sys/devices/pci0000:00/** r,
   owner /sys/devices/virtual/dmi/id/product_family r,
+  owner /sys/devices/virtual/dmi/id/product_name r,
   owner /sys/firmware/dmi/tables/DMI r,
   owner /sys/firmware/dmi/tables/smbios_entry_point r,
   owner /var/log/fcclock.err w,
