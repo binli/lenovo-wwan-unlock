@@ -37,6 +37,13 @@ List of Supported WWAN Modules and Systems:
    - ThinkPad T16 Gen 3
    - ThinkPad T14s Gen 5 (Intel)
    - ThinkPad T14s Gen 6 (AMD)
+2025:
+   - ThinkPad X1 Carbon Gen 13
+   - ThinkPad X1 2-in-1 Gen 10
+   - ThinkPad T14 Gen 6 (AMD)
+   - ThinkPad P14s Gen 6 AMD
+   - ThinkPad T16 Gen 4 (AMD)
+   - ThinkPad P16s Gen 4 AMD
      
    **Environment**:(Enabled only for non-USA SIM)
    - Kernel version: 6.6 or later
@@ -50,6 +57,12 @@ List of Supported WWAN Modules and Systems:
    - ThinkPad L16 Gen 1
    - ThinkPad X13 2-in-1 Gen 5
    - ThinkPad T14 Gen 5 (Intel/AMD)
+2025:
+   - ThinkPad X1 Carbon Gen 13 (ARL only)
+   - ThinkPad X1 2-in-1 Gen 10 (ARL only)
+   - ThinkPad T14 Gen 6 (AMD)
+   - ThinkPad P14s Gen 6 AMD
+   - ThinkPad L14 Gen 6 (Intel/AMD)
      
    **Environment**:(Enabled only for non-USA SIM)
    - Kernel version: 6.5 or later
@@ -66,6 +79,14 @@ List of Supported WWAN Modules and Systems:
    - ThinkPad T14 Gen 5 (Intel/AMD)
    - ThinkPad T16 Gen 3
    - ThinkPad T14s Gen 5 (Intel)
+2025:
+   - ThinkPad T14 Gen 6 (AMD)
+   - ThinkPad T16 Gen 4 (AMD)
+   - ThinkPad L13 Gen 6 (Intel/AMD)
+   - ThinkPad L13 2-in-1 Gen 6 (Intel/AMD)
+   - ThinkPad L14 Gen 6 (Intel/AMD)
+   - ThinkPad L16 Gen 2 (Intel/AMD)
+   - ThinkPad T14s Gen 6 (Intel/AMD) // Added only for test purpose
      
    **Environment**:(Enabled only for non-USA SIM)
    - Kernel version: 6.5 or later
@@ -145,18 +166,3 @@ restart it with the `systemctl restart ModemManager` command.
   Reason: Carrier certification for USA operator is not completed and it
           will take few months to enable WWAN for USA SIM.
 ------------------------------------------------------------------------
-Deb packages for Ubuntu 22.04:
-```
-$ sudo add-apt-repository ppa:lenovo-oem/wwan
-$ sudo apt update
-```
-Check if your system is supported, if there is no output, then your system is not supported.
-```
-$ ubuntu-drivers list
-lenovo-fccunlock
-lenovo-cfgservice
-```
-Install the packages
-```
-$ sudo apt install lenovo-fccunlock lenovo-cfgservice
-```
