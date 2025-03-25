@@ -27,6 +27,7 @@ include <tunables/global>
   owner /opt/fcc_lenovo/sar_config_files/* r,
   owner /run/* rw,
   owner /sys/devices/virtual/dmi/id/product_family r,
+  owner /sys/devices/virtual/dmi/id/product_name r,
   owner /sys/firmware/dmi/tables/DMI r,
   owner /sys/firmware/dmi/tables/smbios_entry_point r,
 
