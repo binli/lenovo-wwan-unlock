@@ -1,4 +1,4 @@
-lenovo-wwan-unlock (3.0.0-24.04ubuntu2) noble; urgency=medium
+lenovo-wwan-unlock (3.0.0-25.10ubuntu1) questing; urgency=medium
 
   * gnuls replaced ls on questing(25.10).
 
