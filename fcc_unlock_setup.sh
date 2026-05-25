@@ -105,7 +105,7 @@ fi
 ### Below mentioned script is executed to fix issues related to WWAN.
 ### Issue List:
 ### 1) System sometimes wake up during suspend mode, while using Fibocom
-###    L860-GL-16/FM350 and Quectel EM160R-GL/RM520N-GL WWAN module.
+###    L860-GL-16/FM350 ,Quectel EM160R-GL/RM520N-GL and Foxconn SDX61 WWAN module.
 sudo chmod ugo+x suspend-fix/wwan_issue_fix.sh
 suspend-fix/wwan_issue_fix.sh
 
