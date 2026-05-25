@@ -17,8 +17,7 @@ Rules-Requires-Root: no
 
 Package: lenovo-wwan-unlock
 Architecture: amd64
-Depends:
- ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, fastboot
 XB-Modaliases: ${modaliases}
 Description: Lenovo FCC unlock and SAR config package
  This package performs FCC unlock and doing SAR config with WWAN device

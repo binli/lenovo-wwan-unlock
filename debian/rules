@@ -11,6 +11,7 @@ current_dir=$(shell pwd)
 override_dh_auto_configure:
 	mkdir "$(current_dir)/debian/temp"
 	tar -zxvf sar_config_files.tar.gz -C "$(current_dir)/debian/temp"
+	tar -zxvf DEV_OTA_PACKAGE.tar.gz -C "$(current_dir)/debian/temp"
 
 override_dh_installsystemd:
 	dh_installsystemd -p lenovo-wwan-unlock lenovo-cfgservice.service
