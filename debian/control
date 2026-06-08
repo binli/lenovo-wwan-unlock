@@ -2,6 +2,8 @@ Source: lenovo-wwan-unlock
 Section: non-free/net
 Priority: optional
 Maintainer: Commercial Engineering <commercial-engineering@canonical.com>
+XSBC-Original-Maintainer: Nitin Joshi1 <njoshi1@lenovo.com>
+XS-Autobuild: yes
 Build-Depends:
  debhelper-compat (= 13),
  dh-apparmor,
@@ -10,7 +12,7 @@ Build-Depends:
  libmbim-glib4,
  libmm-glib0,
  libpci3
-Standards-Version: 4.7.0
+Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/lenovo/lenovo-wwan-unlock
 Vcs-Git: https://github.com/lenovo/lenovo-wwan-unlock.git
 Rules-Requires-Root: no
