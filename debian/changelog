@@ -1,3 +1,9 @@
+lenovo-wwan-unlock (20260525.git1e53ecad-24.04ubuntu1) noble; urgency=medium
+
+  * Update to the latest upstream version.
+
+ -- Bin Li <binli@ubuntu.com>  Thu, 28 May 2026 13:40:49 +0800
+
 lenovo-wwan-unlock (3.0.1-24.04ubuntu2) noble; urgency=medium
 
   * Separated drop-in service into a single package.
