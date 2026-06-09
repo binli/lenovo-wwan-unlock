@@ -1,3 +1,9 @@
+lenovo-wwan-unlock (20260609.git2d0bc9e8-24.04ubuntu1) noble; urgency=medium
+
+  * Release a new version with P14s Gen7 support.
+
+ -- Bin Li <binli@ubuntu.com>  Tue, 09 Jun 2026 17:44:14 +0800
+
 lenovo-wwan-unlock (20260525.git1e53ecad-24.04ubuntu2) noble; urgency=medium
 
   * Version older than that in the archive.
