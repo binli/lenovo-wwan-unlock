@@ -32,4 +32,4 @@ override_dh_auto_clean:
 
 override_dh_gencontrol:
 	dh_gencontrol
-	dh_gencontrol -p lenovo-test-low-power-suspend-resume -- -v4.0-24.04ubuntu1
+	dh_gencontrol -p lenovo-test-low-power-suspend-resume -- -v4.0-24.04ubuntu2
