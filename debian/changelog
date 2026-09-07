@@ -1,8 +1,8 @@
-lenovo-wwan-unlock (20260609.git2d0bc9e8-26.04ubuntu1) resolute; urgency=medium
+lenovo-wwan-unlock (20260609.git2d0bc9e8-26.10ubuntu1) resolute; urgency=medium
 
-  * Bump a version for 26.04.
+  * Bump a version for 26.10.
 
- -- Bin Li <binli@ubuntu.com>  Mon, 07 Sep 2026 11:11:37 +0800
+ -- Bin Li <binli@ubuntu.com>  Mon, 07 Sep 2026 11:23:11 +0800
 
 lenovo-wwan-unlock (20260609.git2d0bc9e8-24.04ubuntu2) noble; urgency=medium
 
